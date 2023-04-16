@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Comic-sans-ms-bold.ttf">
+            <string>ComicSansMS-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PlayListCell" rowHeight="284" id="xyl-zm-nIk" customClass="PlayListCell" customModule="Streamini" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="430" height="284"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xyl-zm-nIk" id="P20-cD-iMX">
+                <rect key="frame" x="0.0" y="0.0" width="430" height="283.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="playlist" translatesAutoresizingMaskIntoConstraints="NO" id="SCS-Rx-8iK">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="284"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ILG-OG-JrH">
+                        <rect key="frame" x="190" y="216" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="Kp5-KD-tjr"/>
+                            <constraint firstAttribute="height" constant="50" id="vDx-GK-rrC"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D35-zE-LVD">
+                        <rect key="frame" x="59" y="59" width="259" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="sTg-cl-xnV"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="ComicSansMS-Bold" family="Comic Sans MS" pointSize="19"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fUy-et-t1x">
+                        <rect key="frame" x="345" y="52" width="35" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="35" id="1uB-GC-9Ka"/>
+                            <constraint firstAttribute="height" constant="35" id="FWD-U2-ilA"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="moz-uZ-aeF">
+                        <rect key="frame" x="345" y="225.5" width="23" height="31"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="31" id="hRn-Mf-J0z"/>
+                            <constraint firstAttribute="width" constant="23" id="qvJ-30-PCB"/>
+                        </constraints>
+                        <state key="normal" image="lighting"/>
+                        <connections>
+                            <action selector="repostBtnClicked:" destination="xyl-zm-nIk" eventType="touchUpInside" id="n85-6E-40m"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="fUy-et-t1x" firstAttribute="leading" secondItem="D35-zE-LVD" secondAttribute="trailing" constant="27" id="0er-5K-6g8"/>
+                    <constraint firstItem="fUy-et-t1x" firstAttribute="top" secondItem="P20-cD-iMX" secondAttribute="topMargin" constant="41" id="2pz-Si-0rn"/>
+                    <constraint firstItem="D35-zE-LVD" firstAttribute="leading" secondItem="P20-cD-iMX" secondAttribute="leadingMargin" constant="39" id="3yI-Qk-sTx"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="fUy-et-t1x" secondAttribute="trailing" constant="30" id="4fl-d7-J6k"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="ILG-OG-JrH" secondAttribute="bottom" constant="7" id="6le-so-GgA"/>
+                    <constraint firstAttribute="bottom" secondItem="SCS-Rx-8iK" secondAttribute="bottom" constant="-0.5" id="A2G-vO-Jdl"/>
+                    <constraint firstAttribute="trailing" secondItem="SCS-Rx-8iK" secondAttribute="trailing" id="DW1-hq-4dB"/>
+                    <constraint firstItem="SCS-Rx-8iK" firstAttribute="leading" secondItem="P20-cD-iMX" secondAttribute="leading" id="Fi8-w1-XQC"/>
+                    <constraint firstItem="moz-uZ-aeF" firstAttribute="centerY" secondItem="ILG-OG-JrH" secondAttribute="centerY" id="OWf-gt-D4O"/>
+                    <constraint firstItem="ILG-OG-JrH" firstAttribute="centerX" secondItem="SCS-Rx-8iK" secondAttribute="centerX" id="XTX-2s-MqH"/>
+                    <constraint firstItem="SCS-Rx-8iK" firstAttribute="top" secondItem="P20-cD-iMX" secondAttribute="top" id="e3z-0a-8Tu"/>
+                    <constraint firstItem="moz-uZ-aeF" firstAttribute="leading" secondItem="fUy-et-t1x" secondAttribute="leading" id="iha-er-rTS"/>
+                    <constraint firstItem="D35-zE-LVD" firstAttribute="centerY" secondItem="fUy-et-t1x" secondAttribute="centerY" id="zTJ-lO-psb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="repostBtn" destination="moz-uZ-aeF" id="vRb-pM-jaa"/>
+                <outlet property="streamImageView" destination="ILG-OG-JrH" id="wlO-xq-DyR"/>
+                <outlet property="streamNameLabel" destination="D35-zE-LVD" id="buJ-jL-LRC"/>
+                <outlet property="userImageView" destination="fUy-et-t1x" id="9hm-4t-alg"/>
+            </connections>
+            <point key="canvasLocation" x="-24" y="-50"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="lighting" width="420" height="600"/>
+        <image name="playlist" width="602" height="400"/>
+    </resources>
+</document>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B8819C52-B6C6-411B-A04C-AB7C7EDEC5E1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Golfstream</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>623712A89270B8F52140189D39D92654108CE9F2</key>
+		<string>https://github.com/tevghenii/Golfstream.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Golfstream.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>623712A89270B8F52140189D39D92654108CE9F2</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/tevghenii/Golfstream.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>623712A89270B8F52140189D39D92654108CE9F2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>623712A89270B8F52140189D39D92654108CE9F2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Golfstream</string>
+		</dict>
+	</array>
+</dict>
+</plist>

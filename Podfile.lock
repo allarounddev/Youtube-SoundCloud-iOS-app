@@ -1,0 +1,177 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Alamofire (4.8.2)
+  - AlamofireObjectMapper (5.2.0):
+    - Alamofire (~> 4.7)
+    - ObjectMapper (~> 3.4)
+  - AWSCore (2.9.5)
+  - AWSS3 (2.9.5):
+    - AWSCore (= 2.9.5)
+  - boost (1.51.0):
+    - boost/graph-includes (= 1.51.0)
+    - boost/math-includes (= 1.51.0)
+    - boost/numeric-includes (= 1.51.0)
+    - boost/pointer_cast-includes (= 1.51.0)
+    - boost/preprocessor-includes (= 1.51.0)
+    - boost/shared_ptr-includes (= 1.51.0)
+    - boost/string_algorithms-includes (= 1.51.0)
+  - boost/graph-includes (1.51.0)
+  - boost/math-includes (1.51.0)
+  - boost/numeric-includes (1.51.0)
+  - boost/pointer_cast-includes (1.51.0)
+  - boost/preprocessor-includes (1.51.0)
+  - boost/shared_ptr-includes (1.51.0)
+  - boost/string_algorithms-includes (1.51.0)
+  - CardIO (5.4.1)
+  - glm (0.9.7.1)
+  - ISO8601DateFormatterValueTransformer (0.6.1):
+    - RKValueTransformers (~> 1.1.0)
+  - MZAppearance (1.1.6)
+  - MZFormSheetController (3.1.3):
+    - MZAppearance
+    - MZFormSheetController/Core (= 3.1.3)
+  - MZFormSheetController/Core (3.1.3):
+    - MZAppearance
+  - ObjectMapper (3.4.2)
+  - PayPal-iOS-SDK (2.18.1):
+    - PayPal-iOS-SDK/CardIO (= 2.18.1)
+    - PayPal-iOS-SDK/Core (= 2.18.1)
+  - PayPal-iOS-SDK/CardIO (2.18.1):
+    - CardIO (~> 5.4.1)
+  - PayPal-iOS-SDK/Core (2.18.1)
+  - PubNub (3.7.11)
+  - RestKit (0.27.3):
+    - RestKit/Core (= 0.27.3)
+  - RestKit/Core (0.27.3):
+    - RestKit/CoreData
+    - RestKit/Network
+    - RestKit/ObjectMapping
+  - RestKit/CoreData (0.27.3):
+    - RestKit/ObjectMapping
+  - RestKit/Network (0.27.3):
+    - RestKit/ObjectMapping
+    - RestKit/Support
+    - SOCKit
+  - RestKit/ObjectMapping (0.27.3):
+    - ISO8601DateFormatterValueTransformer (~> 0.6.1)
+    - RestKit/Support
+    - RKValueTransformers (~> 1.1.0)
+  - RestKit/Support (0.27.3):
+    - TransitionKit (~> 2.2)
+  - RKValueTransformers (1.1.3)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SimpleKeychain (0.8.1)
+  - SOCKit (1.1)
+  - SVPullToRefresh (0.4.1)
+  - TPKeyboardAvoiding (1.3.2)
+  - TransitionKit (2.2.1)
+  - UriParser-cpp (0.1.3)
+  - VideoCore/Swift (0.3.2):
+    - boost (~> 1.51.0)
+    - glm (~> 0.9.7.1)
+    - UriParser-cpp (~> 0.1.3)
+  - youtube-ios-player-helper (0.1.6)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.2)
+  - AlamofireObjectMapper (~> 5.1)
+  - AWSS3
+  - glm (from `https://github.com/peiweichen/glm`)
+  - MZFormSheetController
+  - PayPal-iOS-SDK
+  - PubNub (~> 3.7.11)
+  - RestKit
+  - SDWebImage (~> 3.7)
+  - SimpleKeychain
+  - SVPullToRefresh
+  - TPKeyboardAvoiding
+  - VideoCore/Swift (from `https://github.com/peiweichen/VideoCore.git`, branch `update_headers`)
+  - youtube-ios-player-helper
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Alamofire
+    - AlamofireObjectMapper
+    - AWSCore
+    - AWSS3
+    - boost
+    - CardIO
+    - ISO8601DateFormatterValueTransformer
+    - MZAppearance
+    - MZFormSheetController
+    - ObjectMapper
+    - PayPal-iOS-SDK
+    - PubNub
+    - RestKit
+    - RKValueTransformers
+    - SDWebImage
+    - SimpleKeychain
+    - SOCKit
+    - SVPullToRefresh
+    - TPKeyboardAvoiding
+    - TransitionKit
+    - UriParser-cpp
+    - youtube-ios-player-helper
+
+EXTERNAL SOURCES:
+  glm:
+    :git: https://github.com/peiweichen/glm
+  VideoCore:
+    :branch: update_headers
+    :git: https://github.com/peiweichen/VideoCore.git
+
+CHECKOUT OPTIONS:
+  glm:
+    :commit: 2cfe1129de430e4b23e811c5e0800989283af224
+    :git: https://github.com/peiweichen/glm
+  VideoCore:
+    :commit: 44d54cc477fc1aee3c9b498363d1b2937e97d69b
+    :git: https://github.com/peiweichen/VideoCore.git
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  AlamofireObjectMapper: 92b6ce2423a9d159e686f6a1d514a009bf903ddc
+  AWSCore: 90ddc0234a321d5649c9572b1447f528f68d41b9
+  AWSS3: 09de855268185fe8403ca03131f3a26c270aa037
+  boost: 6c5c8d8daef26ac83c1e1c00ad14de62b80161d7
+  CardIO: 56983b39b62f495fc6dae9ad7cf875143df06443
+  glm: e83c95e7a6359bdaeb23e6089ac826dd62c5c09f
+  ISO8601DateFormatterValueTransformer: 52da467d6ec899d6aedda8e48280ac92e8ee97e6
+  MZAppearance: 0c06d3fa9cc55142f1da14bc8631fbe8fd6e19d5
+  MZFormSheetController: da2df509805d757e04b052915057d8e1a338b050
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  PayPal-iOS-SDK: 10654cd111e911a9807bddb96fae81aacb8e9915
+  PubNub: a2fbe9e35c0e2797f5ce4945dcd529ea7216befa
+  RestKit: 0baa8b61899d1e00c24f4f2d8aea07ecef0c88bc
+  RKValueTransformers: e5ed67e3811229b616fe01bddeeafe3bb337b1b9
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SimpleKeychain: e2485c28d82fcece35e9e41faeac42ebfe614815
+  SOCKit: c7376ac262bea9115b8f749358f762522a47d392
+  SVPullToRefresh: ba2e718695a43253d8bea6852d2960097dc15d8c
+  TPKeyboardAvoiding: cb69d5ddbe90ce0170e4bc2db1e5e41d4a3ad9a4
+  TransitionKit: 9ceccda4cd0cdc0a05ef85eb235e5a3292c3c250
+  UriParser-cpp: cbbe00080ee432ec4833dca863a7fc83adc9b01a
+  VideoCore: 5d8ea99d900089ee016bb87485912b0286e07650
+  youtube-ios-player-helper: 21ab92db027c7ff86cb17a3843a3f6eafc8158d2
+
+PODFILE CHECKSUM: b2a84cc22efd8fe44d6842b109d853ea55f04207
+
+COCOAPODS: 1.6.1

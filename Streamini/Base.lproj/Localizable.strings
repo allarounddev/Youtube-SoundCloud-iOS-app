@@ -1,0 +1,83 @@
+/* 
+  Localizable.strings
+  Streamini
+
+  Created by Vasily Evreinov on 29/06/15.
+  Copyright (c) 2015 UniProgy s.r.o. All rights reserved.
+*/
+
+"ok" = "Ok";
+"yes" = "Yes";
+"no" = "No";
+"view" = "View";
+"dismiss" = "Dismiss";
+"cancel" = "Cancel";
+"table_no_data" = "Nothing found.";
+"login_with_twitter_button" = "Login with Twitter/Agree to Terms";
+"login_twitter_error" = "Can't authorize with your Twitter account";
+"recent_streams" = "RECENT";
+"stream_name_placeholder" = "What's happening?";
+"go_live_button" = "GO LIVE!";
+"connecting_stream_label" = "Connecting...";
+"stream_live_count" = "LIVE";
+"global_title" = "Global";
+"followed_title" = "My Channels";
+"cant_join_stream_alert_title" = "Can't join the stream";
+"cant_join_stream_alert_message" = "Looks like you can't join the video now. Please, try again later";
+"create_stream_post_message" = "Watch %1$@ live: %2$@";
+"stream_info_share_button" = "Share";
+"stream_info_report_button" = "Report";
+"report_stream_alert_title" = "Report stream";
+"report_stream_alert_message" = "Are you sure you want to report stream %1$@ ?";
+"select_followers_title" = "Share Stream";
+"share_actionsheet_title" = "Share stream with";
+"share_all_followers" = "Entire Entourage";
+"share_other" = "Other";
+"select_followers" = "Select Entourage";
+"search_followers_placeholder" = "Search Entourage";
+"stat_viewers" = "VIEWERS";
+"stat_likes" = "LIKES";
+"stat_replays" = "REPLAYS";
+"stream_close_alert_title" = "Stream ended";
+"stream_close_alert_message" = "Stream ended. To close the view and return to Main screen tap on Close button";
+"w_share_notification" = "%@ wants you to see %@";
+"w_live_notification" = "%@ is live!";
+"user_card_followers" = "ENTOURAGE";
+"user_card_following" = "TUNED IN";
+"user_card_recent" = "Episodes";
+"user_card_follow" = "Tune In";
+"user_card_unfollow" = "Un Tune";
+"user_card_block" = "Block";
+"user_card_unblock" = "Unblock";
+"people_title" = "Channels";
+"people_top" = "TOP";
+"people_featured" = "FEATURED";
+"profile_title" = "My World";
+"profile_userpic_actionsheet_title" = "Change user picture";
+"profile_userpic_camera" = "Camera";
+"profile_userpic_gallery" = "Gallery";
+"profile_description_placeholder" = "Tap here to add bio";
+"profile_logout_actionsheet_title" = "You want to log out?";
+"profile_following" = "Tuned In";
+"profile_followers" = "Entourage";
+"profile_blocked" = "Blocked";
+"profile_streams" = "Episodes";
+"profile_share" = "Share";
+"profile_share_message" = "LYV is awesome!";
+"profile_feedback" = "Feedback";
+"profile_terms" = "Terms of Service";
+"profile_privacy" = "Privacy Policy";
+"profile_logout" = "Logout";
+"feedback_title" = "Feedback";
+"mail_unavailable_error_alert_title" = "Can't send emails";
+"mail_unavailable_error_alert_message" = "Please check your email settings to send emails";
+"blocked_alert_message" = "You have been blocked by the stream author.";
+"price" = "Price";
+"buy_access" = "Buy access to this video for %1$.2f USD?";
+"order_fail" = "Couldn't complete order.";
+"input_paypal" = "Your PayPal Address";
+"your_earnings" = "Your Current Earnings";
+"friends" = "Twitter Friends";
+"broadcasts" = "Broadcasts";
+"places" = "Places";
+"people" = "People";

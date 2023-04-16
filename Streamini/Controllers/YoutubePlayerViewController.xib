@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YoutubePlayerViewController" customModule="Streamini" customModuleProvider="target">
+            <connections>
+                <outlet property="closeButton" destination="cMd-iS-d3i" id="hf4-V7-LJz"/>
+                <outlet property="playerView" destination="Vsg-Hx-ir8" id="hH4-V2-kKm"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="Vsg-Hx-ir8" customClass="YTPlayerView">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cMd-iS-d3i">
+                    <rect key="frame" x="328" y="20" width="27" height="27"/>
+                    <state key="normal" image="close"/>
+                    <connections>
+                        <action selector="closeDidTouch:" destination="-1" eventType="touchUpInside" id="sVB-ax-RH3"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Vsg-Hx-ir8" secondAttribute="bottom" id="3rQ-ys-g7L"/>
+                <constraint firstAttribute="trailing" secondItem="Vsg-Hx-ir8" secondAttribute="trailing" id="4Lp-x3-AY8"/>
+                <constraint firstAttribute="trailing" secondItem="cMd-iS-d3i" secondAttribute="trailing" constant="20" id="GUm-8r-k1s"/>
+                <constraint firstItem="cMd-iS-d3i" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="Le0-SY-ib8"/>
+                <constraint firstItem="Vsg-Hx-ir8" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="OVu-vY-xhr"/>
+                <constraint firstItem="Vsg-Hx-ir8" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="ygG-3i-cgZ"/>
+            </constraints>
+            <point key="canvasLocation" x="34.5" y="54.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="close" width="27" height="27"/>
+    </resources>
+</document>

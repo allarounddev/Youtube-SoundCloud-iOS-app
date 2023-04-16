@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Comic-sans-ms-bold.ttf">
+            <string>ComicSansMS-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="gray" indentationWidth="10" reuseIdentifier="MusicStreamCell" rowHeight="145" id="Zlb-wr-0KB" customClass="MusicStreamCell" customModule="Streamini" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="375"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Zlb-wr-0KB" id="KG6-zw-VsH">
+                <rect key="frame" x="0.0" y="0.0" width="390" height="374.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Music Image" translatesAutoresizingMaskIntoConstraints="NO" id="kRe-R3-gvX">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="375"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PGN-7i-Ind">
+                        <rect key="frame" x="281" y="176.5" width="45" height="45"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="45" id="0J8-PR-FIW"/>
+                            <constraint firstAttribute="width" constant="45" id="mOZ-wi-L3i"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aLK-De-Edc">
+                        <rect key="frame" x="160" y="257.5" width="74" height="74"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="74" id="tNp-Un-K66"/>
+                            <constraint firstAttribute="width" constant="74" id="ujJ-N2-qiM"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hmd-7h-I0a">
+                        <rect key="frame" x="60" y="185.5" width="174" height="27"/>
+                        <color key="backgroundColor" red="0.10570844259999999" green="0.6469726562" blue="0.87142401930000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.10570844259999999" green="0.6469726562" blue="0.87142401930000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="27" id="gad-oU-EEs"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="ComicSansMS-Bold" family="Comic Sans MS" pointSize="19"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hoU-oN-5rl">
+                        <rect key="frame" x="250" y="183.5" width="23" height="31"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="23" id="DJ0-sn-R0W"/>
+                            <constraint firstAttribute="height" constant="31" id="UNQ-or-h2C"/>
+                        </constraints>
+                        <state key="normal" title="Button" image="lighting"/>
+                        <connections>
+                            <action selector="repostBtnClicked:" destination="Zlb-wr-0KB" eventType="touchUpInside" id="2QE-VU-Bc3"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="hoU-oN-5rl" firstAttribute="centerY" secondItem="hmd-7h-I0a" secondAttribute="centerY" id="4oH-xA-wU2"/>
+                    <constraint firstItem="kRe-R3-gvX" firstAttribute="leading" secondItem="KG6-zw-VsH" secondAttribute="leading" id="6VQ-8U-qUH"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="aLK-De-Edc" secondAttribute="bottom" constant="32.5" id="7MM-r3-fUA"/>
+                    <constraint firstItem="hmd-7h-I0a" firstAttribute="centerY" secondItem="PGN-7i-Ind" secondAttribute="centerY" id="C6Z-R8-VxV"/>
+                    <constraint firstItem="kRe-R3-gvX" firstAttribute="top" secondItem="KG6-zw-VsH" secondAttribute="top" id="VvJ-7v-7yU"/>
+                    <constraint firstAttribute="trailing" secondItem="kRe-R3-gvX" secondAttribute="trailing" id="aSl-wg-P14"/>
+                    <constraint firstItem="PGN-7i-Ind" firstAttribute="leading" secondItem="hmd-7h-I0a" secondAttribute="trailing" constant="47" id="c7v-kk-sGZ"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="PGN-7i-Ind" secondAttribute="bottom" constant="142.5" id="cks-ZE-4ff"/>
+                    <constraint firstItem="hmd-7h-I0a" firstAttribute="leading" secondItem="KG6-zw-VsH" secondAttribute="leadingMargin" constant="40" id="fgv-m4-UlZ"/>
+                    <constraint firstItem="PGN-7i-Ind" firstAttribute="leading" secondItem="hoU-oN-5rl" secondAttribute="trailing" constant="8" id="nF0-KO-gxm"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="PGN-7i-Ind" secondAttribute="trailing" constant="44" id="pN8-2J-8nM"/>
+                    <constraint firstItem="aLK-De-Edc" firstAttribute="centerX" secondItem="KG6-zw-VsH" secondAttribute="centerX" constant="2" id="tmR-CF-LHg"/>
+                    <constraint firstAttribute="bottom" secondItem="kRe-R3-gvX" secondAttribute="bottom" constant="-0.5" id="vez-PW-9PK"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="repostBtn" destination="hoU-oN-5rl" id="6iX-m1-dNH"/>
+                <outlet property="streamImageView" destination="aLK-De-Edc" id="g1F-Y0-CHU"/>
+                <outlet property="streamNameLabel" destination="hmd-7h-I0a" id="TOQ-He-GMV"/>
+                <outlet property="userImageView" destination="PGN-7i-Ind" id="UIR-p0-Tfy"/>
+            </connections>
+            <point key="canvasLocation" x="38.399999999999999" y="88.605697151424295"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Music Image" width="1200" height="1200"/>
+        <image name="lighting" width="420" height="600"/>
+    </resources>
+</document>
